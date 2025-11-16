@@ -20,20 +20,6 @@ Aasmi Joshi
 - 🧩 JavaScript (ES6+)
 - 🎨 CSS
 
-## 📸 Preview
-
-📂 Project Structure
-profilesapp/
-│── public/
-│── src/
-│   ├── App.jsx
-│   ├── main.jsx
-│   ├── index.css
-│── package.json
-│── vite.config.js
-│── README.md
-└── .gitignore
-
 ## ▶️ Run the App Locally
 
 Make sure you have Node.js installed. Then run:
