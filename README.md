@@ -1,16 +1,57 @@
-# React + Vite
+##  profilesapp — React + Vite Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React web application built using Vite, created as part of a web development assignment.
+This project is deployed on AWS Amplify and includes my name displayed in the UI as required.
 
-Currently, two official plugins are available:
+## 🚀 Live Website
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 https://main.d2vgui4v2uan5p.amplifyapp.com
 
-## React Compiler
+Click the link above to view the deployed version of the application.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🧑‍💻 Created By
+Aasmi Joshi
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚛️ React
+- ⚡ Vite
+- ☁️ AWS Amplify (Hosting & Deployment)
+- 🧩 JavaScript (ES6+)
+- 🎨 CSS
+
+## 📸 Preview
+
+📂 Project Structure
+profilesapp/
+│── public/
+│── src/
+│   ├── App.jsx
+│   ├── main.jsx
+│   ├── index.css
+│── package.json
+│── vite.config.js
+│── README.md
+└── .gitignore
+
+## ▶️ Run the App Locally
+
+Make sure you have Node.js installed. Then run:
+
+npm install
+npm run dev
+
+
+Your development server will start at:
+
+http://localhost:5173
+
+## 🌐 Deployment
+
+This application is deployed using AWS Amplify Hosting.
+Any time I push an update to the main branch, AWS Amplify automatically:
+
+- Detects the new commit
+- Rebuilds the React project
+- Deploys the latest version
+- No manual steps needed.
